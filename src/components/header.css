@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.header *{
+    color: white;
+}
+
+.header h3{
+    margin: 0rem 1rem;
+    cursor: pointer;
+}
+
+.header-right{
+    display: flex;
+}
+
+.header h3:hover{
+    color: tomato;
+}
+
